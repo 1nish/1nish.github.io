@@ -1,0 +1,49 @@
+  /*Custom Style Sheet */
+
+  html, body {
+    height: 100%;
+    width: 100%;
+
+    /*BUTTON OVERRIDE */
+    btn-info {
+      color: #fff;
+      background-color: #17a2b8;
+      border-color: #17a2b8;
+      border-radius: 0;
+      font-size: 20px;
+  }
+
+  }
+  /* Hero */
+  #hero {
+    background: url('../img/DSC_0426.JPG');
+    background-size: cover;
+    background-position: center bottom;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #hero > h1 {
+    color: #fff;
+    margin-top: -90px;
+  }
+
+  .left
+  {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+  }
+
+  .top
+  {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    left: 0px;
+  }

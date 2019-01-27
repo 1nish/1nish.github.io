@@ -38,12 +38,29 @@
     position: absolute;
     top: 150px;
     right: 300px;
+
   }
+
   .moreleft
   {
     position: absolute;
     top:100px;
     right:100px;
+    
+  }
+
+  .portfolioButton
+  {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+
+  .clothingButton
+  {
+    position:absolute;
+    top: 150px;
+    left: 300px;
   }
 
   .top
@@ -60,11 +77,35 @@
   padding: 5px;
 }
 
-.row::after {
+.page2
+{
+  background: url('../img/DSC_0426.JPG');
+  background-size: cover;
+}
+
+.row::after
+{
+  content: "";
+  clear: both;
+  display: table;
+  margin:auto;
+  margin-left: 15px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.row2::after
+{
   content: "";
   clear: both;
   display: table;
 }
+ .row2
+ {
+   margin:auto;
+   margin-top: 50px;
+   margin-left: 15px;
+   margin-bottom:20px;
+ }
 
 /*  Side Bar / Navigation  */
 
@@ -108,4 +149,11 @@
   a:hover:before,
   a:hover:after {
     transform
+  }
+
+  .resHeader
+  {
+      position: absolute;
+      font-family: Helvetica;
+      font-size: 30px;
   }

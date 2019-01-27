@@ -27,23 +27,43 @@
     {
       window.location='./page2.html';
     }
+
+    function visitPortfolio()
+    {
+      window.location='./portfolio.html';
+    }
+
     </script>
 
 <style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/alien.cur"), url("http://downloads.totallyfreecursors.com/thumbnails/alien.gif"), auto;}</style>
 
 
     <div class="top">
-      <img class = "animated infinite slideInLeft delay-5s
-    " height= 80px width= 80px src = "img2/42599-flying-saucer-icon.png"/>
+      <img class = "animated infinite slideInLeft delay-5s"
+       height= 80px width= 80px src = "img2/42599-flying-saucer-icon.png"/>
     </div>
 
     <div class="left">
-      <button type="button" style="border-radius:50%;" onclick="visitPage1();" class="btn btn-outline-light"> Photos</button>
+      <button type="button" style="border-radius:0%;" onclick="visitPage1();" class="btn btn-outline-light"> Photos</button>
+
+    </div>
+    <div class="portfolioButton">
+      <button type="button" style="border-radius:0%;" onclick="visitPortfolio();" class="btn btn-outline-light"> Portfolio</button>
+
+    </div>
+    <div class="clothingButton">
+      <button type="button" style="border-radius:0%;" onclick="visitPage3();" class="btn btn-outline-light"> Archive</button>
 
     </div>
 
+
+    <div class="right">
+
+    </div>
+
+
     <div class="moreleft">
-      <button type="button" style="border-radius:50%;" onclick="visitPage2();" class="btn btn-outline-light"> Resume</button>
+      <button type="button" style="border-radius:0%;" onclick="visitPage2();" class="btn btn-outline-light"> Resume</button>
     </div>
     <!-- Hero -->
     <div id="hero">
@@ -51,8 +71,6 @@
         class="fa fa-map-marker"></i></span></h1>
         <button type="button" class="btn btn-info">Click Me</button>
     </div>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

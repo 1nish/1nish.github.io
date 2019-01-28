@@ -18,58 +18,58 @@
   </head>
   <body>
     <script>
+    <!--photo gallery-->
     function visitPage1()
     {
       window.location='./page1.html';
     }
-
+    <!--resume-->
     function visitPage2()
     {
       window.location='./page2.html';
     }
-
+    <!--clothes-->
+    function visitPage3()
+    {
+      window.location='./page3.html';
+    }
+    <!--Adobe Portfolio-->
     function visitPortfolio()
     {
       window.location='./portfolio.html';
     }
-
     </script>
 
 <style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/alien.cur"), url("http://downloads.totallyfreecursors.com/thumbnails/alien.gif"), auto;}</style>
 
-
+  <!--flying saucer-->
     <div class="top">
       <img class = "animated infinite slideInLeft delay-5s"
        height= 80px width= 80px src = "img2/42599-flying-saucer-icon.png"/>
     </div>
-
+  <!--Buttons-->
+    <!--Photos button-->
     <div class="left">
       <button type="button" style="border-radius:0%;" onclick="visitPage1();" class="btn btn-outline-light"> Photos</button>
-
     </div>
+    <!--Adobe Portfolio-->
     <div class="portfolioButton">
       <button type="button" style="border-radius:0%;" onclick="visitPortfolio();" class="btn btn-outline-light"> Portfolio</button>
-
     </div>
+    <!--Clothing Archive-->
     <div class="clothingButton">
       <button type="button" style="border-radius:0%;" onclick="visitPage3();" class="btn btn-outline-light"> Archive</button>
-
     </div>
-
-
-    <div class="right">
-
-    </div>
-
-
+    <!--resume button-->
     <div class="moreleft">
       <button type="button" style="border-radius:0%;" onclick="visitPage2();" class="btn btn-outline-light"> Resume</button>
     </div>
-    <!-- Hero -->
+
+    <!-- Hero + click me button -->
     <div id="hero">
         <h1>Welcome to Nish<span><i
         class="fa fa-map-marker"></i></span></h1>
-        <button type="button" class="btn btn-info">Click Me</button>
+        <button type="button" class="btn btn-outline-light">Click Me</button>
     </div>
 
     <!-- Optional JavaScript -->

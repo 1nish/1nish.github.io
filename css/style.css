@@ -165,3 +165,44 @@
       font-family: Helvetica;
       font-size: 30px;
   }
+
+  .Youbtn1
+  {
+      position:absolute;
+      /* top: 450px;
+      left: 100px; */
+      padding-left: 450px;
+      padding-top: 200px;
+  }
+
+  .Bapebtn2
+  {
+    position:absolute;
+    /* top: 300px;
+    left: 150px; */
+    padding-left: 450px;
+    padding-top: 250px;
+
+  }
+
+  .Drakebtn3
+  {
+    position:absolute;
+    /* top: 300px;
+    left: 200px; */
+    padding-left: 450px;
+    padding-top: 300px;
+  }
+
+  h1
+  {
+    padding-left: :200px;
+
+  }
+
+  .page4img
+  {
+    position: absolute;
+    left: 500px;
+    top: 50px;
+  }

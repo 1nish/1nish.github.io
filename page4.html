@@ -1,0 +1,76 @@
+<! DOCTYPE html>
+<!--if 'a' is pressed, play a sound, if 's' is pressed, play the next sound, etc-->
+
+<html>
+<link rel="stylesheet" href="css/style.css">
+
+<head>
+
+  <h1>Soulja Sounds</h1>
+    <div class="sidebar">
+      <font size="-1">
+        <a class="active" href="index.html">Home</a>
+        <a href="page3.html">Next Page</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#game" href="page4.html">Game</a>
+    </div>
+</head>
+<body>
+
+  <div class="Youbtn1">
+    <audio id="Youuu">
+      <source src="Page4Youuu/SouljaBoyYOUUUSoundEffect.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick=PlaySound("~/Page4Youuu/SouljaBoyYOUUUSoundEffect.mp3")> button1</button>
+  </div>
+
+  <div class="Bapebtn2">
+    <audio id="Bapes">
+      <source src="Page4Bapes/SouljaBoyfeatArabIGotMeSomeBapes.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick=PlaySound2("~/Page4Bapes/SouljaBoyfeatArabIGotMeSomeBapes.mp3")> button2</button>
+  </div>
+
+  <div class="Drakebtn3">
+    <audio id="Draaake">
+      <source src="Page4Draaake/DRAKESouljaBoyMeme.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick=PlaySound3("~/Page4Draaake/DRAKE! Soulja Boy Meme (Funny Moments).mp3")> button3</button>
+  </div>
+
+
+</body>
+
+
+<script type="text/javascript">
+var x = document.getElementById("Youuu");
+var y = document.getElementById("Bapes");
+var z = document.getElementById("Draaake");
+
+function PlaySound(sound)
+   {
+
+        x.play();
+        x.currentTime=0;
+    }
+  function PlaySound2(sound)
+    {
+        y.play();
+        y.currentTime=0;
+    }
+  function PlaySound3(sound)
+    {
+        z.play();
+        z.currentTime=0;
+    }
+</script>
+
+
+
+<!--<button onclick = "playBTNSound"-->
+
+</html>

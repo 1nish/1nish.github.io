@@ -1,23 +1,26 @@
 <! DOCTYPE html>
-<!--if 'a' is pressed, play a sound, if 's' is pressed, play the next sound, etc-->
 
 <html>
 <link rel="stylesheet" href="css/style.css">
 
-<head>
 
-  <h1>Soulja Sounds</h1>
+  <h1>Soulja Boy's Sound Box</h1>
     <div class="sidebar">
-      <font size="-1">
-        <a class="active" href="index.html">Home</a>
+      <font size="-2">
+        <a  href="index.html">Home</a>
         <a href="page3.html">Next Page</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
-        <a href="#game" href="page4.html">Game</a>
+        <a href="page4.html">Game</a>
     </div>
-</head>
-<body>
 
+<body>
+  <!-- SouljaBoy Image -->
+  <div class="page4img">
+     <img src="page4img1/SouljaBoxApp.png"  style="width:70%">
+   </div>
+
+  <!--button 1 -->
   <div class="Youbtn1">
     <audio id="Youuu">
       <source src="Page4Youuu/SouljaBoyYOUUUSoundEffect.mp3" type="audio/mpeg">
@@ -26,6 +29,7 @@
     <button onclick=PlaySound("~/Page4Youuu/SouljaBoyYOUUUSoundEffect.mp3")> button1</button>
   </div>
 
+  <!--button 2 -->
   <div class="Bapebtn2">
     <audio id="Bapes">
       <source src="Page4Bapes/SouljaBoyfeatArabIGotMeSomeBapes.mp3" type="audio/mpeg">
@@ -34,14 +38,14 @@
     <button onclick=PlaySound2("~/Page4Bapes/SouljaBoyfeatArabIGotMeSomeBapes.mp3")> button2</button>
   </div>
 
+  <!--button 3 -->
   <div class="Drakebtn3">
     <audio id="Draaake">
       <source src="Page4Draaake/DRAKESouljaBoyMeme.mp3" type="audio/mpeg">
     </audio>
 
-    <button onclick=PlaySound3("~/Page4Draaake/DRAKE! Soulja Boy Meme (Funny Moments).mp3")> button3</button>
+    <button onclick=PlaySound3("~/Page4Draaake/DRAKESouljaBoyMeme.mp3")> button3</button>
   </div>
-
 
 </body>
 

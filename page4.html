@@ -3,21 +3,33 @@
 <html>
 <link rel="stylesheet" href="css/style.css">
 
+<h1>Soulja Boy's Sound Box</h1>
 
-  <h1>Soulja Boy's Sound Box</h1>
-    <div class="sidebar">
       <font size="-2">
         <a  href="index.html">Home</a>
-        <a href="page3.html">Next Page</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="page1.html">Next Page</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="page3.html">Archive</a>
         <a href="page4.html">Game</a>
-    </div>
 
 <body>
   <!-- SouljaBoy Image -->
   <div class="page4img">
      <img src="page4img1/SouljaBoxApp.png"  style="width:70%">
+   </div>
+
+   <!--pointing hands (3)-->
+   <div class="hands">
+     <img class = "animated infinite slideInLeft delay-3s"
+      height= 40px width= 80px src = "page4img2/pointingFinger.png"/>
+   </div>
+   <div class="hands2">
+     <img class = "animated infinite slideInLeft delay-4s"
+      height= 40px width= 80px src = "page4img2/pointingFinger.png"/>
+   </div>
+   <div class="hands3">
+     <img class = "animated infinite slideInLeft delay-5s"
+      height= 40px width= 80px src = "page4img2/pointingFinger.png"/>
    </div>
 
   <!--button 1 -->
@@ -26,55 +38,55 @@
       <source src="Page4Youuu/SouljaBoyYOUUUSoundEffect.mp3" type="audio/mpeg">
     </audio>
 
-    <button onclick=PlaySound("~/Page4Youuu/SouljaBoyYOUUUSoundEffect.mp3")> button1</button>
+    <button onclick=PlaySound("~/Page4Youuu/SouljaBoyYOUUUSoundEffect.mp3")> sound 1</button>
   </div>
 
   <!--button 2 -->
-  <div class="Bapebtn2">
+  <!-- <div class="Bapebtn2">
     <audio id="Bapes">
       <source src="Page4Bapes/SouljaBoyfeatArabIGotMeSomeBapes.mp3" type="audio/mpeg">
     </audio>
 
-    <button onclick=PlaySound2("~/Page4Bapes/SouljaBoyfeatArabIGotMeSomeBapes.mp3")> button2</button>
-  </div>
+    <button onclick=PlaySound2("~/Page4Bapes/SouljaBoyfeatArabIGotMeSomeBapes.mp3")> sound 2</button>
+  </div> -->
 
   <!--button 3 -->
-  <div class="Drakebtn3">
+  <!-- <div class="Drakebtn3">
     <audio id="Draaake">
       <source src="Page4Draaake/DRAKESouljaBoyMeme.mp3" type="audio/mpeg">
     </audio>
 
-    <button onclick=PlaySound3("~/Page4Draaake/DRAKESouljaBoyMeme.mp3")> button3</button>
-  </div>
+    <button onclick=PlaySound3("~/Page4Draaake/DRAKESouljaBoyMeme.mp3")> sound 3</button>
+  </div> -->
 
+  <footer>
+    <p>Created by Nishant Chatlani | 2019</p>
+  </footer>
 </body>
 
 
 <script type="text/javascript">
-var x = document.getElementById("Youuu");
-var y = document.getElementById("Bapes");
-var z = document.getElementById("Draaake");
 
-function PlaySound(sound)
+  var x = document.getElementById("Youuu");
+  function PlaySound(sound)
    {
-
         x.play();
         x.currentTime=0;
     }
-  function PlaySound2(sound)
-    {
-        y.play();
-        y.currentTime=0;
-    }
-  function PlaySound3(sound)
-    {
-        z.play();
-        z.currentTime=0;
-    }
+
+  // var y = document.getElementById("Bapes");
+  // function PlaySound2(sound)
+  //   {
+  //       y.play();
+  //       y.currentTime=0;
+  //   }
+  //
+  // var z = document.getElementById("Draaake");
+  // function PlaySound3(sound)
+  //   {
+  //       z.play();
+  //       z.currentTime=0;
+  //   }
 </script>
-
-
-
-<!--<button onclick = "playBTNSound"-->
 
 </html>

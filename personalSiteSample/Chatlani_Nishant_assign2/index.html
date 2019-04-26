@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Markazi+Text|Nunito+Sans" rel="stylesheet">
+</head>
+
+<title> Nishant </title>
+
+<body>
+
+    <h1><strong><a class="topName" href="./A2GBDA228.html"> Nishant Chatlani</a></strong> </h1>
+<img class="profile" src="img1/profile.jpg" width="85px" height="120px">
+    <h2><b><a href="https://www.instagram.com/nish.chatlani/">: @Nish.Chatlani</a> GBDA228 20734758</b></h2>
+
+<script type="text/javascript">
+//code from my previous knowledge begins
+function visitPageOne()
+  {
+     window.location='./photopage.html';
+  }
+  function visitMainPage()
+    {
+       window.location='./A2GBDA228.html';
+    }
+ function visitSection1()
+  {
+     window.location='#section1';
+  }
+    function visitSection2()
+  {
+     window.location='#section2';
+  }
+     function visitClothingpage()
+  {
+     window.location='./clothingpage.html';
+  }
+//    code from my previous knowledge ends
+
+//Code copied from: https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2
+//Author: Abeautifulsite.net
+//name: smoothly scroll to an element without a jquery plugin
+//Description: function to skip to different sections on the page
+//Date retrieved: Feb. 20, 2019
+//copied code starts
+$('a[href^="#"]').on('click', function(event) {
+
+    var target = $(this.getAttribute('href'));
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+
+});
+//Copied code ends
+
+</script>
+
+<strong>
+<button class = "btn Uno" onclick="visitPageOne();" > Photos</button>
+<button class = "btn Dos" onclick="visitClothingpage();" class="btn btn-outline-light"> Garments</button>
+<a href="https://instagram.com/nish.chatlani">
+<button class = "btn Tres"  class="btn btn-outline-light"> Instagram</button>
+</a>
+<a href="https://twitter.com/nish_chatlani">
+ <button class = "btn Quattro" class="btn btn-outline-light"> Twitter </button>
+</a>
+    </strong>
+
+
+<div class="chunk1">
+    <h3><b>A Bit about Me</b></h3>
+    <p2welcome> Welcome to my personal webpage! I am  Nishant Chatlani - a second year GBDA student at UWaterloo.<br>  I like photography (check out <a href="photopage.html">page 1</a> for my photos). </p2welcome>
+    <button class = "btn Down" onclick="visitSection1();" class="btn btn-outline-light"> Down </button>
+</div>
+
+<img class="photophoto" src="pontoimg/ponto.jpg">
+
+
+<div class="chunk2">
+  <h3chunk2><b> Photography </b></h3chunk2>
+  <p> I started taking photos when I got my first camera in 2013.  <br>Ever since then, I could not put my camera down.  I decided<br> to fuse my passions of photography and hip hop music <br>together by becoming a concert photographer. </p>
+  <button class = "btn Down2" onclick="visitSection2();" class="btn btn-outline-light"> Top </button>
+  <button class = "Photobtn" onclick="visitPageOne();" class="btn btn-outline-light"> See More Photos </button>
+</div>
+
+<img class="fphoto" src="fashionimg/denimimg.jpg">
+
+<section id="section1" ><a href="#section1"><span></span></a>
+</section>
+
+<section id="section2" ><a href="#section2"><span></span></a>
+
+</section>
+<div class="chunk3">
+  <h3chunk3><b> Fashion </b></h3chunk3>
+  <pfashion> I am a big fan of people finding and expressing <br> personal style.  My love for everyday style turned into a <br>great love for fashion.  I love to wear, collect, and photo <br>archive garments that catch my eye. </pfashion>
+  <button class = "btn Down3" onclick="visitSection1();" class="btn btn-outline-light"> Top </button>
+  <button class = "clothesbtn" onclick="visitClothingpage();" class="btn btn-outline-light"> See Some Clothes </button>
+</div>
+
+<!--Instagram Logo Gif created by Alex on Dribble.com https://dribbble.com/shots/3807884-Instagram-Logo-Loop -->
+<a href="https://instagram.com/nish.chatlani">
+<img class="instagramGif" src="page1gif1/IG_LOGOGIF.gif" width="60px" height="50px">
+</a>
+<a href="https://twitter.com/nish_chatlani">
+<img class="twitter" src="page1twitter/twitterlogo.png" width="50px" height="50px">
+</a>
+<a href="https://www.linkedin.com/in/nishant-chatlani-779185153/">
+<img class="linkedin" src="page1linked/linkedin.svg" width="45px" height="45px">
+</a>
+
+</body>
+    <footer>  <a href="mailto:nkchatla@edu.uwaterloo.ca?Subject=Hello%20I Have a Question" target="_top"> Email any questions</a></footer>
+
+</html>

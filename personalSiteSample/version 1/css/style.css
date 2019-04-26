@@ -1,0 +1,270 @@
+h1
+{
+    
+font-family: 'Aladin', cursive;
+color: gold;
+}
+
+.btn
+{
+    font-family: 'Permanent Marker', cursive;
+    background: mintcream;
+    border: none;
+}
+
+body
+{
+    background: lightblue;
+    
+}
+h1
+{
+    position: fixed;
+    top: -15px;
+    left: 200px;
+    
+}
+h2
+{
+    position: absolute;
+    top: 1400px;
+    left: 400px;
+    color: ivory;
+}
+.Uno
+{
+    display: block;
+    transition-duration: .1s;
+    top:7px;
+    left:10px;
+    font-size: 20px;
+    border-radius:10%;
+/*    background: papayawhip;*/
+    color: whitesmoke;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.Dos
+{
+    transition-duration: .2s;
+    left: 15px;
+    display: block;
+    font-size: 20px;
+    border-radius:10%;
+    color: whitesmoke;
+/*    padding-bottom: 20px:*/
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.Tres
+{
+    transition-duration: .2s;
+/*        padding-left: 10px;*/
+    left: 20px;
+    display: block;
+    font-size: 20px;
+    border-radius:10%;
+    color: whitesmoke;
+/*    padding-bottom: 20px:*/
+    padding-top: 20px;
+        margin-bottom: 10px;
+
+}
+.Quattro
+{
+    transition-duration: .2s;
+    left: 25px;
+
+    display: block;
+    font-size: 20px;
+    border-radius:10%;
+    color: whitesmoke;  
+/*    padding-bottom: 20px:*/
+    padding-top: 20px;
+    
+}
+.One
+{
+    position: absolute;
+    top: 10px;
+    font-family: 'Permanent Marker', cursive;
+    background: lightcoral;
+    border: none;
+    transition-duration: .2s;
+    display: block;
+    font-size: 20px;
+    border-radius:20%;
+    color: whitesmoke;  
+    padding-top: 20px;
+}
+
+.btn:hover
+{
+    top:7px;
+    left:10px;
+    border-radius:60%;
+
+}
+.Uno:hover
+{
+    background: powderblue;
+
+}
+.Dos:hover
+{
+    background:  plum;
+    
+}
+.Tres:hover
+{
+    background:  pink;
+    
+}
+
+.Quattro:hover
+{
+    background:  palegreen;
+    
+}
+.One:hover
+{
+    background:  palegreen;    
+}
+
+
+.tom
+{
+    position:relative;
+    resize: 50%;
+    opacity: .8;
+    border-radius: 5%;
+    
+}
+.ducks
+{
+    opacity: .8;
+    resize: 50%;
+}
+.cloud1
+{
+    position: absolute;
+    left: 100px;
+    top: 210px;
+    
+}
+
+.cloud2
+{
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+.cloud3
+{
+    position: absolute;
+    left: 100px;
+    top: 440px;
+    
+}
+.cloud4
+{
+    position: absolute;
+    left: 900px;
+    top: 950px;
+}
+
+h4
+{
+    position: absolute;
+    top: 850px;
+    left: 40px;
+    font-family: 'Aladin', cursive;
+    font-size: 200%;
+}
+p1
+{
+    position: absolute;
+    left: 40px;
+    top: 930px;
+}
+
+.cloud5
+{
+    position: absolute;
+    left: 50px;
+    top: 680px;
+}
+.sun
+{
+    position: absolute;
+    right: 200px;
+    top: 40px;
+}
+.bird
+{
+    position: absolute;
+    right: 40px;
+    top: 250px;
+}
+h3
+{
+    font-family: 'Aladin', cursive;
+    position: absolute;
+    top: 410px;
+    left: 40px;
+    font-size: 200%;
+}
+p
+{
+    position: absolute;
+    top: 465px;
+    left: 40px;
+}
+footer
+{
+    position: absolute;
+    top: 1425px;
+    border-top: 1px solid #999;
+}
+.row
+{
+    border-radius: 5%;
+    position: absolute;
+    top: 70px;
+}
+
+.actor
+{
+    border-radius: 10%;
+}
+.bubble
+{
+    border-radius: 10%;  
+}
+.soccer
+{    
+    border-radius: 10%;
+
+}
+/*
+#section1
+{
+    position: absolute;
+    top: 500px;
+}
+*/
+#section2
+{
+    position: absolute;
+    top: 800px;
+}
+#section3
+{
+    position: absolute;
+    top: 1400px;
+    
+}
+h4
+{
+    
+}

@@ -1,0 +1,359 @@
+  /*Custom Style Sheet */
+
+  html, body {
+    height: 100%;
+    width: 100%;
+
+    /*BUTTON OVERRIDE */
+    btn-info {
+      color: #fff;
+      background-color: #17a2b8;
+      border-color: #17a2b8;
+      border-radius: 0;
+      font-size: 20px;
+  }
+
+  }
+  /* Hero */
+  #hero {
+    background: url('../img/DSC_0426.JPG');
+    background-size: cover;
+    background-position: center bottom;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #hero > h1 {
+    color: #fff;
+    margin-top: -90px;
+  }
+
+  .left
+  {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+
+  }
+
+  .moreleft
+  {
+    position: absolute;
+    top:100px;
+    right:100px;
+
+  }
+
+  .portfolioButton
+  {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+
+  .clothingButton
+  {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+  }
+  .SouljaGame
+  {
+    position: absolute;
+    top: 450px;
+    left: 580px;
+  }
+
+  .top
+  {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    left: 0px;
+  }
+
+  .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.page2
+{
+  background: url('../img/DSC_0426.JPG');
+  background-size: cover;
+}
+
+.row::after
+{
+  content: "";
+  clear: both;
+  display: table;
+  margin:auto;
+  margin-left: 15px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.row2::after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+ .row2
+ {
+   margin:auto;
+   margin-top: 50px;
+   margin-left: 15px;
+   margin-bottom:20px;
+ }
+
+/*  Side Bar / Navigation  */
+
+/* .sidebar
+{
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  color: maroon;
+  border-radius: 5%;
+} */
+
+  .resHeader
+  {
+      position: absolute;
+      font-family: Helvetica;
+      font-size: 30px;
+  }
+  .hands
+  {
+    position: absolute;
+    top: 250px;
+    right: 0px;
+    left: 250px;
+  }
+  .hands2
+  {
+    position: absolute;
+    top: 325px;
+    right: 0px;
+    left: 250px;
+  }
+  .hands3
+  {
+    position: absolute;
+    top: 400px;
+    right: 0px;
+    left: 250px;
+  }
+
+  .Youbtn1
+  {
+      position:absolute;
+      left: 450px;
+      top: 255px;
+  }
+
+  .drakebtn2
+  {
+    position:absolute;
+    left: 450px;
+    top: 337px;
+
+  }
+
+  .bapebtn3
+  {
+    position:absolute;
+    left: 450px;
+    top: 402px;
+  }
+
+  h1
+  {
+    left:200px;
+
+  }
+
+  .page4img
+  {
+    position: absolute;
+    left: 500px;
+    top: -40px;
+  }
+
+  .thefooter
+  {
+    bottom: 20px;
+    resize: 100%;
+  }
+
+.title1
+{
+  position: absolute;
+  top: 70px;
+  left: 10px;
+
+}
+
+.title2
+{
+  position: absolute;
+  top: 500px;
+  left: 10px;
+
+}
+
+.description
+{
+  position: absolute;
+  top: 440px;
+  left: 10px;
+}
+
+.description2
+{
+  position: absolute;
+  top: 1140px;
+  left: 10px;
+}
+
+
+iframe
+{
+  position: absolute;
+  top: 120px;
+  left: 10px;
+}
+
+.portfolioFooter
+{
+  position: absolute;
+  top: 1200px;
+
+}
+
+.sidebar
+{
+  position: fixed;
+  top: 60px;
+}
+
+.btn1
+{
+  text-decoration: none;
+  border-radius: 15%;
+  border-style: solid;
+  border-width: thin;
+
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+}
+
+.btn2
+{
+  text-decoration: none;
+  border-radius: 15%;
+  border-style: solid;
+  border-width: thin;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.btn3
+{
+  text-decoration: none;
+  border-radius: 15%;
+  border-style: solid;
+  border-width: thin;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.btn4
+{
+  text-decoration: none;
+  border-radius: 15%;
+  border-style: solid;
+  border-width: thin;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.btn5
+{
+  text-decoration: none;
+  border-radius: 15%;
+  border-style: solid;
+  border-width: thin;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.btn1:hover
+{
+  border-color: red;
+  text-decoration: underline;
+  font-size: 150%;
+  background-color: white;
+  opacity: .5;
+}
+.btn2:hover
+{
+  border-color: red;
+  text-decoration: underline;
+  font-size: 150%;
+  background-color: white;
+  opacity: .5;
+}
+.btn3:hover
+{
+  border-color: red;
+  text-decoration: underline;
+  font-size: 150%;
+  background-color: white;
+  opacity: .5;
+}
+.btn4:hover
+{
+  border-color: red;
+  text-decoration: underline;
+  font-size: 150%;
+  background-color: white;
+  opacity: .5;
+}
+.btn5:hover
+{
+  border-color: red;
+  text-decoration: underline;
+  font-size: 150%;
+  background-color: white;
+  opacity: .5;
+}
+
+.portfolioBackground
+{
+  background: url(../gradientcircle.jpg);
+  height: 200%;
+  width: 100%;
+}

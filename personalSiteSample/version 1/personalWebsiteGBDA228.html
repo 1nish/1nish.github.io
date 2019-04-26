@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Aladin|Permanent+Marker" rel="stylesheet">
+    </head>
+ 
+<title> Nishant </title>
+
+<body style="background: ">
+    
+    <h1><strong>Welcome to My Personal Website</strong>  </h1>
+    
+    <h2><b><a href="https://www.instagram.com/nish.chatlani/">Nishant Chatlani</a> GBDA228 20734758</b></h2>
+    
+<script type="text/javascript">
+    
+function visitPageOne()
+  {
+     window.location='./pageOne.html';
+  }
+ function visitSection1()
+  {
+     window.location='#section1';
+  }
+    function visitSection2()
+  {
+     window.location='#section2';
+  } 
+     function visitSection3()
+  {
+     window.location='#section3';
+  }   
+
+//function to skip to sections on the page - taken from https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2
+$('a[href^="#"]').on('click', function(event) {
+
+    var target = $(this.getAttribute('href'));
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+
+});
+    
+</script>
+<strong>
+<button class = "btn Uno" onclick="visitPageOne();" > YO!</button>
+
+<button class = "btn Dos" onclick="visitSection1();" class="btn btn-outline-light"> YO!</button>
+    
+<button class = "btn Tres" onclick="visitSection2();" class="btn btn-outline-light"> YO!</button>
+
+ <button class = "btn Quattro" onclick="visitSection3();" class="btn btn-outline-light"> YO!</button>
+    </strong>
+    <img class="cloud1" src="img3/clouds-01.png" width="350px" height="350px">
+    
+    <img class="cloud2" src="img4/clouds-02.png" width="250px" height="250px">
+    
+    <img class="cloud3" src="img4/clouds-02.png" width="250px" height="250px">
+
+    <img class="bird" src="img5/hummingbird.png" width="400px" height="400px">
+    <img class="sun" src="img6/sun.png" width="250px" height="300px">
+    
+    <section id="section1" ><a href="#section1"><span></span></a></section>
+<!--         <a href="#section1">skip to section 1</a>-->
+
+    <h3>Profile</h3>
+    <p> Welcome to my personal webpage! I am  Nishant Chatlani - a second year GBDA student at UWaterloo.  I like photography (check out <a href="pageOne.html">page 1</a> for my photos) </p>
+    
+    <section id="section2" ><a href="#section2"><span></span></a></section>
+    
+<img class="cloud4" src="img4/clouds-02.png" width="250px" height="250px">
+    
+    <h4><b>Here is some more info</b></h4>
+    <p1>My interests include: Photography, Fashion/style, and Vegan food!</p1>
+<img class="cloud5" src="img3/clouds-01.png" width="300px" height="300px">
+<!--
+    <img class="ducks" src="img2/Ducks3-480x480.gif">
+    
+     <img class="tom" src="img1/TomHiddleston.jpg">
+-->
+    
+
+    
+<section id="section3" ><a href="#section3"><span></span></a></section>    
+</body>   
+    <footer>  <a href="mailto:nkchatla@edu.uwaterloo.ca?Subject=Hello%20I Have a Question" target="_top"> Email any questions</a></footer>
+    
+</html>

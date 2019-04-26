@@ -1,0 +1,767 @@
+
+body
+{
+  background-color: whitesmoke;
+}
+
+h1
+{
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  position: fixed;
+  top: -10px;
+  color: black;
+}
+
+.topName
+{
+  color: Black;
+  text-decoration: none;
+}
+
+.topName:hover
+{
+  text-decoration: underline;
+}
+
+.topName:active
+{
+  color: black;
+  text-decoration: underline;
+  background-color: lightblue;
+}
+.topName:visited
+{
+  color: grey;
+}
+
+.btn
+{
+  font-family: 'Nunito Sans', sans-serif;
+
+    background: lightgrey;
+    border: none;
+}
+
+.btn:active
+{
+  color: rgb(94, 94, 94);
+}
+
+.btn:hover
+{
+  width: 10%;
+  length: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: grey;
+}
+
+.Uno
+{
+    display: block;
+    transition-duration: .1s;
+    position: fixed;
+    top:15px;
+    left:268px;
+    length: 25px;
+    width: 65px;
+    font-size: 10px;
+    border-radius:15px;
+    color: whitesmoke;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+    /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+    Author: w3schools.com
+    Name: Box Shadow
+    Description: Shadows behind buttons and images */
+    /* copied code starts */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* copied code ends */
+  }
+
+.Dos
+{
+    transition-duration: .2s;
+    position: fixed;
+    left: 348px;
+    top:15px;
+    display: block;
+    length: 25px;
+    width: 65px;
+    font-size: 10px;
+    border-radius:15px;
+    color: whitesmoke;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+    Author: w3schools.com
+    Name: Box Shadow
+    Description: Shadows behind buttons and images */
+    /* copied code starts */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* copied code ends */
+}
+
+.Tres
+{
+    transition-duration: .2s;
+    position: fixed;
+    left: 428px;
+    top:15px;
+    display: block;
+    length: 25px;
+    width: 65px;
+    font-size: 10px;
+    border-radius:15px;
+    color: whitesmoke;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+    Author: w3schools.com
+    Name: Box Shadow
+    Description: Shadows behind buttons and images */
+    /* copied code starts */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* copied code ends */
+
+}
+
+.Quattro
+{
+    transition-duration: .2s;
+    position: fixed;
+    left: 508px;
+    top: 15px;
+    display: block;
+    length: 25px;
+    width: 65px;
+    font-size: 10px;
+    border-radius:15px;
+    color: whitesmoke;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+    Author: w3schools.com
+    Name: Box Shadow
+    Description: Shadows behind buttons and images */
+    /* copied code starts */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* copied code ends */
+}
+
+.Down
+{
+  transition-duration: .1s;
+  position: absolute;
+  left: 643px;
+  top: 100px;
+  display: block;
+  length: 25px;
+  width: 65px;
+  font-size: 10px;
+  border-radius:15px;
+  color: whitesmoke;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */
+}
+
+.Down2
+{
+
+  transition-duration: .1s;
+  position: absolute;
+  left: 694px;
+  top: 219.5px;
+  display: block;
+  length: 25px;
+  width: 65px;
+  font-size: 10px;
+  border-radius:15px;
+  color: whitesmoke;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */
+}
+
+.Down3
+{
+
+  transition-duration: .1s;
+  position: absolute;
+  left: 694px;
+  top: 219.5px;
+  display: block;
+  length: 30px;
+  width: 65px;
+  font-size: 10px;
+  border-radius:15px;
+  color: whitesmoke;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */
+}
+
+.Photobtn
+{
+  transition-duration: .2s;
+  position: absolute;
+  left: 693.5px;
+  top: 175px;
+  display: block;
+  length: 25px;
+  width: 105px;
+  font-size: 10px;
+  border: 0;
+  border-radius:15px;
+  color: whitesmoke;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */
+   background: CadetBlue;
+}
+
+.Photobtn:hover
+{
+  width: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: grey;
+}
+
+.clothesbtn
+{
+  transition-duration: .2s;
+  position: absolute;
+  left: 693.5px;
+  top: 175px;
+  display: block;
+  length: 25px;
+  width: 115px;
+  font-size: 10px;
+  border: 0;
+  border-radius:15px;
+  color: whitesmoke;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */
+    background: CadetBlue;
+}
+
+.clothesbtn:hover
+{
+  width: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: grey;
+}
+
+.linkedin
+{
+  position: absolute;
+  top: 836px;
+  left: 15px;
+}
+
+.twitter
+{
+  position: absolute;
+  top: 836px;
+  left: 70px;
+}
+
+.instagramGif
+{
+  position: absolute;
+  top: 785px;
+  left: 0px;
+}
+
+h2
+{
+  position: absolute;
+  top: 780px;
+  left: 50px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h2:visited
+{
+  color: grey;
+}
+
+h2:active
+{
+  text-decoration: none;
+  background-color: lightgrey;
+  color: teal;
+}
+
+
+.profile
+{
+    position: absolute;
+    top: 80px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.chunk1
+{
+  position: absolute;
+  left: 100px;
+  top: 80px;
+  background-color: lightgrey;
+  opacity: .8;
+  height: 120px;
+  width: 818px;
+}
+
+.photophoto
+{
+  position: absolute;
+  top: 250px;
+  opacity: .8;
+  width: 300px;
+  height: 200px;
+  left: -2px;
+}
+
+.chunk2
+{
+  font-family: 'Markazi Text', serif;
+  font-size: 150%;
+  position: absolute;
+  left: 50px;
+  top: 230px;
+  background-color: lightgrey;
+  opacity: .8;
+  height: 240px;
+  width: 668px;
+  padding-left: 200px;
+}
+
+.fphoto
+{
+  position: absolute;
+  top: 520px;
+  left: -2px;
+  opacity: .8;
+  width: 300px;
+  height: 200px;
+
+}
+
+.chunk3
+{
+  font-family: 'Markazi Text', serif;
+  font-size: 150%;
+  position: absolute;
+  left: 50px;
+  top: 500px;
+  background-color: lightgrey;
+  opacity: .8;
+  height: 240px;
+  width: 668px;
+  padding-left: 200px;
+}
+
+h3chunk2
+{
+  position: absolute;
+  top: 18px;
+  left: 260px;
+}
+h3chunk3
+{
+  position: absolute;
+  top: 18px;
+  left: 260px;
+}
+
+p
+{
+  position: absolute;
+  top: 30px;
+  left: 260px;
+}
+
+pfashion
+{
+  position: absolute;
+  top:50px;
+  left: 260px;
+}
+
+h3
+{
+  position: absolute;
+  left: 15px;
+  top: -4px;
+  font-family: 'Markazi Text', serif;
+  font-size: 150%;
+}
+
+p2welcome
+{
+  top: 50px;
+  position: absolute;
+  left: 15px;
+  font-family: 'Markazi Text', serif;
+  font-size: 110%;
+}
+
+footer
+{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 130%;
+  position: absolute;
+  top: 900px;
+  color: black;
+}
+
+footer:active
+{
+  background-color: lightgrey;
+}
+
+footer2
+{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 120%;
+  position: absolute;
+  top: -500px;
+  left: -700px;
+  width: 200px;
+  height: 40px;
+}
+
+footer2:active
+{
+  background-color: lightgrey;
+  color: teal;
+  text-decoration: none;
+}
+
+footer3
+{
+  position: absolute;
+  top: 1825px;
+}
+
+footer3:active
+{
+  background-color: lightgrey;
+}
+
+h3find
+{
+  font-family: 'Markazi Text', serif;
+  font-size: 130%;
+  position: absolute;
+  top: 1750px;
+  left: 10px;
+}
+
+.page1img1
+{
+  position: absolute;
+  left: 10px;
+  top: 80px;
+  width: 300px;
+  height: 200px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */
+
+}
+
+pCM
+{
+  position: absolute;
+  left: 10px;
+  top: 285px;
+  font-family: 'Markazi Text', serif;
+  font-size: 120%;
+}
+
+.page1img2
+{
+  position: absolute;
+  top: 80px;
+  left: 370px;
+  width: 300px;
+  height: 200px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */
+}
+
+pTH
+{
+  position: absolute;
+  left: 370px;
+  top: 285px;
+  font-family: 'Markazi Text', serif;
+  font-size: 120%;
+}
+
+.page1img3
+{
+  position: absolute;
+  top:340px;
+  left: 10px;
+  width: 300px;
+  height: 200px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */
+}
+
+pDM
+{
+  position: absolute;
+  left: 10px;
+  top: 545px;
+  font-family: 'Markazi Text', serif;
+  font-size: 120%;
+}
+
+.page1img4
+{
+  position: absolute;
+  left: 370px;
+  top:340px;
+  width: 300px;
+  height: 200px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */
+}
+
+pDM2
+{
+  position: absolute;
+  left: 370px;
+  top: 545px;
+  font-family: 'Markazi Text', serif;
+  font-size: 120%;
+}
+
+.page1img5
+{
+  position: absolute;
+  top:600px;
+  left: 10px;
+  width: 300px;
+  height: 200px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */
+}
+
+pMB
+{
+  position: absolute;
+  left: 10px;
+  top: 805px;
+  font-family: 'Markazi Text', serif;
+  font-size: 120%;
+}
+
+.page1img6
+{
+  position: absolute;
+  top:600px;
+  left: 370px;
+  width: 300px;
+  height: 200px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */
+}
+
+pKG
+{
+  position: absolute;
+  left: 370px;
+  top: 805px;
+  font-family: 'Markazi Text', serif;
+  font-size: 120%;
+}
+
+h3photo
+{
+  position: absolute;
+  top: 1850px;
+}
+
+h3photo:active
+{
+  background-color: lightgrey;
+}
+
+h2find
+{
+
+  position: absolute;
+  top: -650px;
+  left:  -700px;
+  float: left;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 120%;
+}
+
+
+/* clothes page */
+
+.page2img1
+{
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  width: 600px;
+  height: 400px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */}
+pTKM
+{
+  position: absolute;
+  top: 418px;
+  left: 610px;
+  font-family: 'Markazi Text', serif;
+  font-size: 120%;
+}
+
+.page2img2
+{
+  position: absolute;
+  top: 500px;
+  left: 10px;
+  width: 600px;
+  height: 400px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */}
+
+pMMM
+{
+  position: absolute;
+  top: 838px;
+  left: 610px;
+  font-family: 'Markazi Text', serif;
+  font-size: 120%;
+}
+
+.page2img3
+{
+  position: absolute;
+  top: 920px;
+  left: 10px;
+  width: 600px;
+  height: 400px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */}
+
+pCH
+{
+  position: absolute;
+  top: 1235px;
+  left: 610px;
+  font-family: 'Markazi Text', serif;
+  font-size: 120%;
+}
+
+.page2img4
+{
+  position: absolute;
+  top: 1340px;
+  left: 10px;
+  width: 600px;
+  height: 400px;
+  /* Code copied from: https://www.w3schools.com/css/css3_buttons.asp
+  Author: w3schools.com
+  Name: Box Shadow
+  Description: Shadows behind buttons and images */
+  /* copied code starts */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* copied code ends */}
+
+pMMJ
+{
+  position: absolute;
+  top:1655px;
+  left: 610px;
+  font-family: 'Markazi Text', serif;
+  font-size: 120%;
+}

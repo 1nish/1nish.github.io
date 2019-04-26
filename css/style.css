@@ -66,7 +66,7 @@
   {
     position: absolute;
     top: 450px;
-    left: 480px;
+    left: 580px;
   }
 
   .top
@@ -115,7 +115,7 @@
 
 /*  Side Bar / Navigation  */
 
-.sidebar
+/* .sidebar
 {
   margin: 0;
   padding: 0;
@@ -124,38 +124,9 @@
   position: fixed;
   height: 100%;
   overflow: auto;
-}
-
-.sidebar a:before,
-.sidebar a:after {
-  height: 14px;
-  width: 14px;
-  position: absolute;
-  content: '';
-  transition: all 0.35s ease;
-  opacity: 0;
-}
-
-.sidebar a: before {
-  right: 0;
-  top: 0;
-  border-right: 3px solid red;
-  border-top: 3px solid red;
-  transform: translate(-100%, 50%);
-}
-
-.sidebar a:after {
-  left: 0;
-  bottom: 0;
-  border-left: 3px solid red;
-  border-bottom: 3px solid red;
-  transform: translate(100%, -50%);
-}
-
-  a:hover:before,
-  a:hover:after {
-    transform
-  }
+  color: maroon;
+  border-radius: 5%;
+} */
 
   .resHeader
   {
@@ -188,23 +159,23 @@
   .Youbtn1
   {
       position:absolute;
-      padding-left: 450px;
-      padding-top: 175px;
+      left: 450px;
+      top: 255px;
   }
 
-  .Bapebtn2
+  .drakebtn2
   {
     position:absolute;
-    padding-left: 450px;
-    padding-top: 250px;
+    left: 450px;
+    top: 337px;
 
   }
 
-  .Drakebtn3
+  .bapebtn3
   {
     position:absolute;
-    padding-left: 450px;
-    padding-top: 325px;
+    left: 450px;
+    top: 402px;
   }
 
   h1
@@ -217,5 +188,172 @@
   {
     position: absolute;
     left: 500px;
-    top: 50px;
+    top: -40px;
   }
+
+  .thefooter
+  {
+    bottom: 20px;
+    resize: 100%;
+  }
+
+.title1
+{
+  position: absolute;
+  top: 70px;
+  left: 10px;
+
+}
+
+.title2
+{
+  position: absolute;
+  top: 500px;
+  left: 10px;
+
+}
+
+.description
+{
+  position: absolute;
+  top: 440px;
+  left: 10px;
+}
+
+.description2
+{
+  position: absolute;
+  top: 1140px;
+  left: 10px;
+}
+
+
+iframe
+{
+  position: absolute;
+  top: 120px;
+  left: 10px;
+}
+
+.portfolioFooter
+{
+  position: absolute;
+  top: 1200px;
+
+}
+
+.sidebar
+{
+  position: fixed;
+  top: 60px;
+}
+
+.btn1
+{
+  text-decoration: none;
+  border-radius: 15%;
+  border-style: solid;
+  border-width: thin;
+
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+}
+
+.btn2
+{
+  text-decoration: none;
+  border-radius: 15%;
+  border-style: solid;
+  border-width: thin;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.btn3
+{
+  text-decoration: none;
+  border-radius: 15%;
+  border-style: solid;
+  border-width: thin;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.btn4
+{
+  text-decoration: none;
+  border-radius: 15%;
+  border-style: solid;
+  border-width: thin;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.btn5
+{
+  text-decoration: none;
+  border-radius: 15%;
+  border-style: solid;
+  border-width: thin;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.btn1:hover
+{
+  border-color: red;
+  text-decoration: underline;
+  font-size: 150%;
+  background-color: white;
+  opacity: .5;
+}
+.btn2:hover
+{
+  border-color: red;
+  text-decoration: underline;
+  font-size: 150%;
+  background-color: white;
+  opacity: .5;
+}
+.btn3:hover
+{
+  border-color: red;
+  text-decoration: underline;
+  font-size: 150%;
+  background-color: white;
+  opacity: .5;
+}
+.btn4:hover
+{
+  border-color: red;
+  text-decoration: underline;
+  font-size: 150%;
+  background-color: white;
+  opacity: .5;
+}
+.btn5:hover
+{
+  border-color: red;
+  text-decoration: underline;
+  font-size: 150%;
+  background-color: white;
+  opacity: .5;
+}
+
+.portfolioBackground
+{
+  background: url(../gradientcircle.jpg);
+  height: 200%;
+  width: 100%;
+}

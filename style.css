@@ -357,3 +357,16 @@ iframe
   height: 200%;
   width: 100%;
 }
+
+.footer1
+{
+  position: absolute;
+  top: 1000px;
+}
+
+.resume
+{
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}

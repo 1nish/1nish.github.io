@@ -1,32 +1,9 @@
 <! DOCTYPE html>
 
 <html>
-<head><link rel="stylesheet" href="css/style.css"></head>
-
-
-<script type="text/javascript">
-
-  var x1 = document.getElementById("Youuu");
-  function PlaySound(sound)
-   {
-        x1.play();
-        x1.currentTime=0;
-    }
-
-  var x2 = document.getElementById("drake");
-  function PlaySound2(sound)
-    {
-        x2.play();
-        x2.currentTime=0;
-    }
-
-  var x3 = document.getElementById("bape");
-  function PlaySound3(sound)
-    {
-        x3.play();
-        x3.currentTime=0;
-    }
-</script>
+<head> <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+</head>
 
 
 <h1>Soulja Boy's Sound Box</h1>
@@ -41,6 +18,17 @@
 </div>
 
 <body>
+  <script type="text/javascript">
+
+    var x1 = new Audio();
+    x1.src = "SouljaBoyYOUUUSoundEffect.mp3";
+    var x2 = new Audio();
+    x2.src = "DrakeSouljaMP3.mp3";
+    var x3 = new Audio();
+    x3.src = "BapeSouljaMP3.mp3";
+
+  </script>
+
     <!-- SouljaBoy Image -->
     <div class="page4img">
        <img src="page4img1/SouljaBoxApp.png"  style="width:70%" alt="Soulja Boy Illustrator Image">
@@ -48,57 +36,42 @@
 
      <!--pointing hands (3)-->
      <div class="hands">
-       <img class = "animated infinite slideInLeft delay-3s"
+       <img class = "animated infinite slideInLeft"
         height= 40px width= 80px src = "page4img2/pointingFinger.png"/>
      </div>
      <div class="hands2">
-       <img class = "animated infinite slideInLeft delay-4s"
+       <img class = "animated infinite slideInLeft"
         height= 40px width= 80px src = "page4img2/pointingFinger.png"/>
      </div>
      <div class="hands3">
-       <img class = "animated infinite slideInLeft delay-5s"
+       <img class = "animated infinite slideInLeft"
         height= 40px width= 80px src = "page4img2/pointingFinger.png"/>
      </div>
 
-    <!--button 1 "Youuu"-->
-    <div class="Youbtn1">
+     <!-- button 1 -->
 
-      <audio id="Youuu">
-        <source src="../Page4Youuu/SouljaBoyYOUUUSoundEffect.mp3" type="audio/mpeg">
-      </audio>
-      <!-- <button onclick=PlaySound("../Page4Youuu/SouljaBoyYOUUUSoundEffect.mp3")> sound 1</button> -->
-      <button onclick= > sound 1</button>
+      <button class="Youbtn1" onclick=x1.play() > sound 1</button>
 
-    </div>
+
 
     <!--button 2 "Drake?!"-->
 
-    <div class="drakebtn2">
+    <button class="drakebtn2" onclick=x2.play()> sound 2</button>
 
-      <audio id="drake">
-        <source src="../sounds/DrakeSouljaMP3.mp3" type="audio/mpeg">
-      </audio>
-      <button onclick=PlaySound("../sounds/DrakeSouljaMP3.mp3")> sound 2</button>
 
-    </div>
 
-    <!--button 2 "igotmesomeathingapes"-->
+    <!--button 3 "igotmesomeathingapes"-->
 
-    <div class="bapebtn3">
+    <button class="bapebtn3" onclick=x3.play()> sound 3</button>
 
-      <audio id="bape">
-        <source src="../sounds/BapeSouljaMP3.mp3" type="audio/mpeg">
-      </audio>
-      <button onclick=PlaySound("../sounds/BapeSouljaMP3.mp3")> sound 3</button>
 
-    </div
 
 
   <div class="thefooter">
-    <footer>
-      <p>Created by Nishant Chatlani | 2019</p>
-    </footer>
+    <p>Created by Nishant Chatlani | 2019</p>
   </div>
+
+<!-- <footer> Created by Nishant Chatlani | 2019 </footer> -->
 
 </body>
 

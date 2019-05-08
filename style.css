@@ -188,13 +188,15 @@
   {
     position: absolute;
     left: 500px;
-    top: -40px;
+    top: -20px;
   }
 
   .thefooter
   {
-    bottom: 20px;
-    resize: 100%;
+    position: absolute;
+    top: 580px;
+    left: 10px;
+    /* resize: 100%; */
   }
 
 .title1

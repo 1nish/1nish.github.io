@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Archivo+Black&display=swap" rel="stylesheet">
+</head>
+
+<body>
+      <title>N|SH</title>
+<script type="text/javascript">
+  function visitHomePage()
+  {
+    window.location='./index.html';
+  }
+  function visitWorkPage()
+  {
+    window.location='./workPage.html';
+  }
+  function visitContactPage()
+  {
+    window.location='./contactPage.html';
+  }
+  function visitAboutPage()
+  {
+    window.location='./aboutPage.html';
+  }
+
+
+</script>
+
+
+
+  <div id="top">
+  <img id="folderBack" src="Group 17.svg">
+ </div>
+<img id="folderBottom" src="Union 17.svg" style="left:4px; top: 545px; width:93.5%; z-index: 6;">
+<img id="folderPage" src="Group 12.svg">
+  <img id="folderBackground" src="Rectangle 15.svg">
+
+  <img id="logoGif" src="NClogoTickerGif.gif" onclick="visitHomePage()">
+<div id="under">
+
+    <img id="homeButton" src="Group 13.svg" onclick="visitHomePage()">
+    <img id="workButton" src="Group 14.svg" onclick="visitWorkPage()">
+    <img id="contactButton" src="Group 15.svg" onclick="visitContactPage()">
+    <img id="aboutButton" src="Group 16.svg" onclick="visitAboutPage()">
+      <img id="folderPage" src="Group 12.svg">
+</div>
+
+  <img id="mainPageBlock" src="Rectangle 14.svg" style="position: absolute; top: 79.6px; left: 610px;">
+
+  <footer> Created by Nishant Chatlani | 2019 </footer>
+
+  </body>
+
+
+  <section id="contact" class="contact">
+	<div class="section-title">
+		<h2>Contact</h2>
+	</div>
+	<div class="contact-info">
+		<form method= "post" action="mail.php">
+			<input type="text" name="name" class="textField" placeholder="Full Name" required="">
+			<input type="text" name="email" class="textField" placeholder="Email Address" required="">
+			<textarea name="message" class="textField messageField" placeholder="Message" required=""></textarea>
+			<input name="submit" type="submit" class="textField submitButton" value="Send Message" style="display: flex; font-family: 'Bebas Neue', cursive; border-radius: 50px; border: none; width: 120px; height: 50px; background-color: #ffccff; box-shadow: 2px 4px #888888;">
+		</form>
+	</div>
+
+</section>
+
+
+<style>
+h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  position:relative;
+  left: 60px;
+  margin-bottom: 0px;
+]
+}
+#contact{
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  z-index: 5;
+  transition: all 4s ease-in-out;
+}
+
+  #mainPageBlock{
+    position: absolute;
+    top: 79.6px;
+    left: 430px;
+    z-index: 4;
+    width: 200px;
+  }
+
+  #contactButton{
+    z-index: 3;
+  }
+
+  footer{
+    padding-top: 5px;
+    position: absolute;
+    top: 655px;
+    align-items: baseline;
+    width: 100px;
+  }
+
+  #folderPage {
+    position: absolute;
+    left: 45px;
+    top: 546px;
+    width: 89.6%;
+    z-index: 99;
+}
+
+  textarea{
+    /* width: 70%; */
+    /* outline: 0; */
+    /* border-width: 0 0 2px; */
+    border-color: lightgray;
+    max-width: 70%;
+    min-height: 15%;
+    max-height: 110px;
+    min-width: 30%;
+  }
+
+  input {
+    width: 70%;
+    /* outline: 0; */
+    border-width: 0 0 2px;
+    border-color: lightgray;
+  }
+  input:focus {
+    border-color: blue;
+  }
+
+  .contact-info .textField{
+	width: 70%;
+	height: 30%;
+	/* border: 1px solid;
+  border-color: black;
+	box-sizing: border-box; */
+	background-color: transparent;
+  margin-right: 0%;
+	/* padding: 15px 15px; */
+	/* margin-bottom: 15px; */
+	font-family:
+	color: #fff;
+	font-size: 16px;
+}
+.contact-info .textField messageField{
+  /* min-height: 50%;
+  min-width: 100px;
+  max-height: 150%;
+  max-width: 150%; */
+}
+
+.contact-info .textField submitButton{
+	/* background-color: #fff; */
+/*	color: #000;*/
+	height: 50%;
+  /* width: 130%; */
+	font-weight: 600;
+	font-size: 16px;
+	cursor: crosshair;
+}
+
+.textField submitButtom{
+  display: flex;
+  text-align: center;
+}
+
+</style>
+</html>

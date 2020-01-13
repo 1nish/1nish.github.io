@@ -1,0 +1,423 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+img { max-width: 100%; }
+
+
+#folderBack{
+  position: absolute;
+  left: 163px;
+  top:80px;
+  width: 81%;
+  z-index: 4;
+}
+
+#folderBottom{
+  position: absolute;
+  left:4px;
+  top: 545px;
+  width:93.5%;
+  max-width: 100%;
+  /* width: 81%; */
+}
+
+#folderPage{
+  position: absolute;
+  left: 45px;
+  top: 546px;
+  max-width: 89.6%;
+  z-index: 5;
+  /* width: 18%; */
+}
+
+
+/* #buttons{
+  position:absolute;
+  /* top: 60px;
+  left: 300px; */
+  /* margin-left: 0;
+  margin-right: 0; */
+/*
+} */
+
+#homeButton{
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  z-index: 3;
+  /* width: 18% */
+    max-width: 100%;
+}
+
+#homeButton:hover{
+  cursor: pointer;
+}
+
+#contactButton{
+  position: absolute;
+  top: 50px;
+  left: 610px;
+    z-index: 1;
+    /* width: 18%; */
+    max-width: 100%;
+}
+#contactButton:hover{
+  cursor: pointer;
+}
+
+#aboutButton{
+  position: absolute;
+  top: 50px;
+  left: 790px;
+  z-index: 0;
+    max-width: 100%;
+}
+
+#aboutButton:hover{
+  cursor: pointer;
+}
+
+#workButton{
+  position: absolute;
+  top: 50px;
+  left: 430px;
+  z-index: 2;
+  max-width: 100%;
+}
+
+#workButton:hover{
+  cursor: pointer;
+}
+
+#mainPageBlock{
+  position: absolute;
+  top: 79.6px;
+  left: 250px;
+  z-index: 4;
+  width: 200px;
+}
+/* #mainPageBlock{
+   position: absolute
+   top: 79.6px;
+   left: 250px;
+   z-index: 4;
+   width: 200px;
+ } */
+
+#logoGif{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 10%;
+  /* height: 10%; */
+  cursor: pointer;
+}
+
+#gradientCirc{
+  /* position: absolute; */
+  /* left: 310;
+  top: 20; */
+  z-index: 4;
+  width: 15%;
+}
+
+#profileCirc{
+  /* position: absolute; */
+  /* left: 283;
+  top: 10; */
+  z-index: 5;
+  width: 15%;
+}
+
+#workContent{
+  position: absolute;
+  left: 187px;
+  top: 102px;
+  z-index: 15%;
+}
+
+/* #adobeIcons{
+  position: absolute;
+  z-index: 5;
+  /* top: 400px;
+  left: 200px; */
+/* } */
+
+
+#icon1{
+  position: absolute;
+  /* z-index: 5; */
+  /* max-width: 100%; */
+}
+
+#icon1:hover{
+  cursor: pointer;
+}
+
+/* #tooltip{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1x dotted black;
+}
+
+#tooltip #tooltiptext{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  colof: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 6;
+}
+
+#tooltip:hover{
+  visibility: visible;
+}
+
+#iconsHover #popup{
+  display: none;
+}
+#iconsHover:hover #popup{
+  display: block;
+} */
+
+#icon2{
+  position: absolute;
+  top: 441px;
+  left: 280px;
+  z-index: 5;
+  max-width: 100%;
+}
+
+#icon2:hover{
+  cursor: pointer;
+
+}
+
+#icon3{
+  position: absolute;
+  top: 435px;
+  left: 375px;
+  z-index: 5;
+  max-width: 100%;
+}
+
+#icon3:hover{
+  cursor: pointer;
+}
+
+#icon4{
+  position: absolute;
+  top: 432px;
+  left: 470px;
+  z-index: 5;
+}
+
+#icon4:hover{
+  cursor: pointer;
+}
+
+#icon5{
+  position: absolute;
+  top: 435px;
+  left: 555px;
+  z-index: 5;
+}
+
+#icon5:hover{
+  cursor: pointer;
+}
+
+footer{
+  padding-top: 5px;
+  position: absolute;
+  top: 660px;
+  align-items: baseline;
+  width: 100px;
+}
+
+/* Work Page */
+
+/*Contact Page*/
+
+
+.contact{
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 0;
+	z-index: 99;
+}
+
+.contact-info{
+  position: absolute;
+  left: 50px;
+	display: flex;
+	justify-content: center;
+	margin: 0px 0;
+}
+
+.contact-info .textField{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	background-color: transparent;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+	font-family:
+	color: #fff;
+	font-size: 16px;
+}
+.contact-info .textField messageField{
+	height: 200px;
+  width: 200px;
+}
+
+.contact-info .textField submitButtom{
+  position: static;
+	background-color: #fff;
+/*	color: #000;*/
+	height: 50px;
+	font-weight: 600;
+	font-size: 16px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.container{
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  z-index: 4;
+  /* height: 700px;
+  width: 1000px; */
+
+}
+
+a:focus{
+  outline:none;
+}
+
+.portfolioFilter{
+  position: static;
+  padding: 15px 0;
+}
+
+.portfolioFilter a{
+ margin-right: 6px;
+ color: #666;
+ text-decoration: none;
+ border: 1px solid #ccc;
+ padding: 4px 15px;
+ border-radius: 50px;
+ display: inline-block;
+ font-size: 14px;
+}
+
+.portfolioFilter a.current {
+  background: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  color: #f9f9f9;
+}
+
+.portfolioContainer{
+  border: 1px solid #eee;
+  border-radius: 3px;
+
+  /* display: table; */
+  height: 380px;
+  width: 950px;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  /* image display from w3schools */
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+img {
+  margin: 5px;
+  max-width:100%;
+}
+
+
+.isotope-item {
+z-index: 4;
+}
+
+.isotope-hidden.isotope-item {
+pointer-events: none;
+z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+/* change duration value to whatever you like */
+-webkit-transition-duration: 0.8s;
+-moz-transition-duration: 0.8s;
+transition-duration: 0.8s;
+}
+
+.isotope {
+-webkit-transition-property: height, width;
+-moz-transition-property: height, width;
+transition-property: height, width;
+}
+
+.isotope .isotope-item {
+-webkit-transition-property: -webkit-transform, opacity;
+-moz-transition-property: -moz-transform, opacity;
+transition-property: transform, opacity;
+}
+
+
+  /* width */
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: silver;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: lightsteelblue;
+  }
+
+
+
+
+  h3{
+    position: absolute;
+    top: 400px;
+    font-family: 'Bebas Neue';
+    z-index: 99;
+    left: 210px;
+  }

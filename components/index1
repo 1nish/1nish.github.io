@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"/> -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:black&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:b&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Archivo+Black&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+      <title>N|SH</title>
+<script type="text/javascript">
+  function visitHomePage()
+  {
+    window.location='./index.html';
+  }
+  function visitWorkPage()
+  {
+    window.location='./workPage.html';
+  }
+  function visitContactPage()
+  {
+    window.location='./contactPage.html';
+  }
+  function visitAboutPage()
+  {
+    window.location='./aboutPage.html';
+  }
+
+
+</script>
+
+<div class="primary">
+
+  <div id="top">
+  <img id="folderBack" src="Group 17.svg">
+ </div>
+  <img id="folderBottom" src="Union 17.svg" style="max-width:93.6%;">
+  <img id="folderBackground" src="Rectangle 15.svg">
+
+  <img id="logoGif" src="NClogoTickerGif.gif" onclick="visitHomePage()">
+
+
+  <img id="mainPageBlock" src="Rectangle 14.svg">
+
+
+
+</div>
+
+<div id="homeContent"  class="secondary">
+
+  <div id="under">
+
+      <img id="homeButton" src="Group 13.svg" onclick="visitHomePage()">
+      <img id="workButton" src="Group 14.svg" onclick="visitWorkPage()">
+      <img id="contactButton" src="Group 15.svg" onclick="visitContactPage()">
+      <img id="aboutButton" src="Group 16.svg" onclick="visitAboutPage()">
+  </div>
+
+  <img id="gradientCirc" src="gradientCirc.svg" style="position: absolute; left: 220px; top: 130px; max-width: 100%;">
+  <img id="profileCirc" src="profileCirc.svg" style="position: absolute; left: 200px; top: 110px; max-width: 100%;">
+
+  <div id="adobeIcons">
+
+    <img id="icon1" src="Adobe Icons-1.svg" title="Adobe Illustrator" style="position: absolute; z-index: 5; top: 442px; left: 200px;">
+    <img id="icon2" src="Adobe Icons-2.svg" title="Adobe XD">
+    <img id="icon3" src="Adobe Icons-3.svg" title="Adobe Photoshop">
+    <img id="icon4" src="Adobe Icons-4.svg" title="Adobe After Effects">
+    <img id="icon5" src="Adobe Icons-5.svg" title="Adobe Premiere">
+  </div>
+
+  <h1 style="z-index: 5; font-size: 40px; left: 450px; position: absolute; top: 120px; font-family: 'Bebas Neue';"> Nishant Chatlani</h1>
+  <p style="z-index: 5; font-size: 20px; left: 450px; position: absolute; top: 220px; font-family: 'Bebas Neue'; width: 500px;"> Welcome to my personal website.  Check out my work, photos and interests - Thanks for visiting! </p>
+  <h3> Skills: </h3>
+</div>
+  <!--
+  <div id="tooltip">
+    <img id="icon1" src="Adobe Icons-1.svg">
+     <span id="tooltiptext"> Adobe Illustrator </span>
+  </div> -->
+  <!-- <div id="iconsHover">
+     <img id="icon1" src="Adobe Icons-1.svg">
+    <div id="popup" style="display: none"> Adobe Icon </div>
+    </div> -->
+
+<footer> Created by Nishant Chatlani | 2019 </footer>
+
+  </body>
+
+  <script>
+
+
+
+  <!-- let e = document.getElementById('iconsHover');
+  e.onmouseover = function(){
+    document.getElementById('popup').style.display='block';
+  }
+  e.onmouseout = function(){
+    document.getElementById('popup').style.display='none';
+  } -->
+
+  </script>
+</html>

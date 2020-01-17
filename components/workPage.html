@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+
+<script>
+  function visitHomePage()
+  {
+    window.location='./index.html';
+  }
+  function visitWorkPage()
+  {
+    window.location='./workPage.html';
+  }
+  function visitContactPage()
+  {
+    window.location='./contactPage.html';
+  }
+  function visitAboutPage()
+  {
+    window.location='./aboutPage.html';
+  }
+  function visitOldPage()
+  {
+    window.location='https://1nish.github.io/index.html';
+  }
+  function visitClothesPage()
+  {
+    window.location='https://1nish.github.io/page3.html';
+  }
+  function visitGamePage()
+  {
+    window.location='https://1nish.github.io/page4.html';
+  }
+
+
+
+
+  $(window).load(function(){
+  var $container = $('.portfolioContainer');
+  $container.isotope({
+      filter: '*',
+      animationOptions: {
+          duration: 750,
+          easing: 'linear',
+          queue: false
+      }
+  });
+
+  $('.portfolioFilter a').click(function(){
+      $('.portfolioFilter .current').removeClass('current');
+      $(this).addClass('current');
+
+      var selector = $(this).attr('data-filter');
+      $container.isotope({
+          filter: selector,
+          animationOptions: {
+              duration: 750,
+              easing: 'linear',
+              queue: false
+          }
+       });
+       return false;
+  });
+});
+</script>
+
+
+  <div id="top">
+  <img id="folderBack" src="Group 17.svg">
+ </div>
+  <img id="folderBottom" src="Union 17.svg" style="left:4px; top: 545px; width:93.5%;">
+  <img id="folderPage" src="Group 12.svg">
+  <img id="folderBackground" src="Rectangle 15.svg">
+
+  <img id="logoGif" src="NClogoTickerGif.gif" onclick="visitHomePage()">
+<div id="under">
+
+    <img id="homeButton" src="Group 13.svg" onclick="visitHomePage()">
+    <img id="workButton" src="Group 14.svg" onclick="visitWorkPage()">
+    <img id="contactButton" src="Group 15.svg" onclick="visitContactPage()">
+    <img id="aboutButton" src="Group 16.svg" onclick="visitAboutPage()">
+</div>
+
+  <img id="mainPageBlock" src="Rectangle 14.svg" style="">
+      <title>N|SH</title>
+
+  <!-- <div id="workContent" style="height : 435px; width : 460px; overflow : auto;">
+  <img src="profileCirc.svg">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bQRzCCSAG_E"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+  </div> -->
+<!-- style="height: 235px; width: 760px; overflow; auto;" -->
+<div class="container">
+  <div class="row">
+    <div class="col-1g-12">
+      <div class="portfolioFilter clearfix">
+        <a href="#" data-filter="*"
+    class="current">All Categories </a>
+      <a href="#" data-filter=".designs">Designs </a>
+    <a href="#" data-filter=".photos">Photos </a>
+    <a href="#" data-filter=".logos">Logos </a>
+  </div>
+  </div>
+
+  <div class="portfolioContainer" style="overflow: scroll; overflow-x: hidden; overflow-y: scroll;">
+  <div class="row1">
+
+    <span class="photos action">
+      <img src="DSC_1090.jpg" style="width: 32%;" alt="image" title="Drake at OVO Fest 2016 in Toronto">
+    </span>
+
+    <span class="photos action">
+      <img src="CallumMallace copy.jpg" style="width: 32%;" alt="image" title="Callum Mallace at Dignity Health Sports Park">
+    </span>
+
+    <span class="photos action">
+      <img src="Action copy.JPG" style="width: 32%; float: right;" alt="image" title="Nitin at Dana Point">
+    </span>
+</div>
+
+<div class="row2">
+  <span class="designs 1">
+    <img src="NavinConcert.JPG" style="width: 32%; " alt="image" title="Navin Bose at the Irenic in San Diego">
+  </span>
+
+  <span class="designs 2">
+    <img src="DSC_0658.jpg" style="width: 32%;" alt="image" title="Bird on Isla Mujeres in the Mexican Caribbean">
+  </span>
+
+  <span class="designs 3">
+    <img src="SanDiego.JPG" style="width: 32%; float: right;" alt="image" title="San Diego Skyline">
+  </span>
+</div>
+
+<div class="row3">
+  <span class="photos rowthree">
+    <img src="DSC_0311.jpg" style="width: 32%;" alt="image" title="Na-Kel Smith in San Diego">
+  </span>
+  <span class="photos rowthree">
+    <img src="DSC_1010.jpg" style="width: 32%;" alt="Chichen Itza" title="El Castillo, Chichen Itza">
+  </span>
+  <span class="photos rowthree">
+    <img src="DSC_0495.jpg" style="width: 32%; float: right;" alt="image" title="MonneybaggYo at HOB San Diego 2019">
+  </span>
+</div>
+
+<div class="row4">
+  <span class="oneNish">
+    <img src="1nish.jpg" style="width: 32%; height: 90%;" alt="image" onclick="visitOldPage()" title="Previous Personal Website">
+  </span>
+
+  <span class="designs rowfour">
+    <img src="SouljaBoy.jpg" onclick="visitGamePage()" style="width: 32%; height: 90%;" alt="image" title="Soulja Boy's Sound Box">
+  </span>
+
+<span class="designs rowfour">
+  <iframe position=absolute width=32% height="90%" float= right src="https://www.youtube.com/embed/bQRzCCSAG_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</span>
+
+</div>
+
+<div class="row5">
+  <span class="clothes">
+    <img src="MastermindMMJ505.jpg" onclick="visitClothesPage()" style="width: 32%; height: 96%;" alt="Clothing" title="Clothing Archive">
+  </span>
+
+  <span class="designs rowfive">
+    <img src="RebeccaFu_final.jpg" style="width: 32%; float: right;" alt="image" title="Client art designed with Adobe Illustrator">
+  </span>
+  <span class="designs rowfive">
+    <img src="Techmag.jpg" style="width: 32%; float: right;" alt="image" title="Tech Magazine Sample designed with Adobe Illustrator">
+  </span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+  <footer> Created by Nishant Chatlani | 2019 </footer>
+
+
+
+
+
+  <style>
+
+
+
+  html, body{
+    scroll-behavior: smooth;
+  }
+
+  row1, row2::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+    #mainPageBlock{
+      position: absolute;
+      top: 79.6px;
+      left: 430px;
+      z-index: 4;
+      width: 200px;
+    }
+
+    #workButton{
+      z-index: 3;
+    }
+
+    footer{
+      padding-top: 5px;
+      position: absolute;
+      top: 655px;
+      align-items: baseline;
+      width: 100px;
+    }
+
+     .container{
+      position: absolute;
+      top: 100px;
+      left: 200px;
+      /* z-index: 4; */
+    }
+
+   a:focus{
+      outline:none;
+    }
+
+    .portfolioFilter{
+      padding: 15px 0;
+    }
+
+    .portfolioFilter a {
+      margin-right: 6px;
+     color: #666;
+     text-decoration: none;
+     border: 1px solid #ccc;
+     padding: 4px 15px;
+     border-radius: 50px;
+     display: inline-block;
+    }
+
+    .portfolioFilter a.current {
+      background: #1e1e1e;
+      border: 1px solid #1e1e1e;
+      color: #f9f9f9;
+    }
+
+    .portfolioContainer{
+      border: 1px solid #eee;
+      border-radius: 3px;
+      /* display: flex;
+      justify-content:space-around; */
+    }
+
+    img{
+      margin: 5px;
+      max-width:100%;
+    }
+
+
+  .isotope-item {
+    z-index: 5;
+  }
+
+  .isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .isotope,
+  .isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+  }
+
+  .isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+  }
+
+  .isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+  }
+
+
+  /* width */
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: silver;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: lightsteelblue;
+  }
+
+  .oneNish:hover{
+    cursor: pointer;
+  }
+
+  .clothes:hover{
+    cursor: pointer;
+  }
+
+  .photos, .designs:hover{
+    cursor: pointer;
+  }
+  </style>
+
+
+  </body>
+</html>

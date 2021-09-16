@@ -135,7 +135,7 @@ h2, h3, h4, h5, h6 {
   padding: 8px 0 12px 0;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Karla";
 }
 
 .nav-menu > ul > li + li {
@@ -446,7 +446,7 @@ h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -476,7 +476,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 20px 0;
+  padding: 15px 0;
   background-color: #f7f7f7;
   min-height: 40px;
   margin-top: 72px;
@@ -489,7 +489,7 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
   margin: 0;
 }
@@ -506,7 +506,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .breadcrumbs ol li + li {
@@ -588,10 +588,15 @@ border-top-right-radius: 5%;
   /* background: #152028; */
 
 }
+section.services {
+  padding: 20px 0;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
 
 
 .services .icon-box {
-  padding: 30px;
+  padding: 15px;
   position: relative;
   overflow: hidden;
   margin: 0;
@@ -628,7 +633,7 @@ border-top-right-radius: 5%;
   margin-bottom: 0;
 }
 
-.services .icon-box-pink .icon i {
+/* .services .icon-box-pink .icon i {
   color: #ff689b;
 }
 
@@ -638,7 +643,7 @@ border-top-right-radius: 5%;
 
 .services .icon-box-green .icon i {
   color: #41cf2e;
-}
+} */
 
 .services .icon-box-blue .icon i {
   color: #2282ff;
@@ -847,6 +852,7 @@ border-top-right-radius: 5%;
   background-color: #cc00cc !important;
 }
 
+
 .portfolio-details .portfolio-info {
   padding: 30px;
   position: absolute;
@@ -914,7 +920,7 @@ border-top-right-radius: 5%;
 }
 
 .contact .section-title{
-text-align: right;
+text-align: center;
 color: black;
 }
 

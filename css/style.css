@@ -4,6 +4,7 @@
     height: 100%;
     width: 100%;
 
+
     /*BUTTON OVERRIDE */
     btn-info {
       color: #fff;
@@ -158,25 +159,71 @@
 
   .Youbtn1
   {
+      color: darkgrey;
+      background-color: red;
+      border: none;
+      border-radius: 50%;
       position:absolute;
-      left: 450px;
-      top: 255px;
+      left: 400px;
+      top: 235px;
+      height: 60px;
+      font-family: 'Fugaz One', cursive;
+      font-size: 130%;
+  }
+  .Youbtn1:hover
+  {
+    /* background-color: firebrick; */
+    opacity: .5;
+    color: white;
+    border: solid;
+    border-color: florawhite;
   }
 
   .drakebtn2
   {
+    color: darkgrey;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
     position:absolute;
-    left: 450px;
-    top: 337px;
-
+    left: 400px;
+    top: 310px;
+    height: 60px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 130%;
+  }
+  .drakebtn2:hover
+  {
+    /* background-color: firebrick; */
+    opacity: .5;
+    color: white;
+    border: solid;
+    border-color: florawhite;
   }
 
   .bapebtn3
   {
+    color: darkgrey;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
     position:absolute;
-    left: 450px;
-    top: 402px;
+    left: 400px;
+    top: 385px;
+    height: 60px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 130%;
   }
+  .bapebtn3:hover
+  {
+    /* background-color: crimson; */
+    opacity: .5;
+    color: white;
+    border: solid;
+    border-color: florawhite;
+  }
+
+
 
   h1
   {
@@ -237,6 +284,12 @@ iframe
   left: 10px;
 }
 
+.sitePic:hover
+{
+  border: solid;
+  border-color: black;
+}
+
 .portfolioFooter
 {
   position: absolute;
@@ -278,8 +331,8 @@ iframe
 .btn3
 {
   text-decoration: none;
-  border-radius: 15%;
-  border-style: solid;
+  border-radius: 0%;
+  /* border-style: solid; */
   border-width: thin;
   color: black;
   padding-top: 5px;

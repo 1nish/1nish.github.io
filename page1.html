@@ -14,17 +14,44 @@
           <link rel="icon" type="image/x-icon" size="16x16" href="favicon.ico">
           <link rel="manifest" href="/site.webmanifest">
 
+          <!-- Dark Mode -->
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+          body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+          }
+
+          .dark-mode {
+            background-color: black;
+            color: white;
+          }
+          </style>
+          <!-- Dark Mode (End) -->
+
         </head>
   <body>
     <h1 style= "font-family: Rubik, sans-serif;">PHOTO GALLERY | NISHANT CHATLANI</h1>
-    <div class = "buttons" style= "font-family: Rubik, sans-serif;">
-    <a class="btn1" href="https://1nish.github.io/components/portfolioSite/indexP.html">Home</a>
-    <a class="btn2" href="https://1nish.github.io/components/portfolioSite/portfolio-details3.html">Back</a>
-    <a class="btn3" href="https://www.instagram.com/nish.chatlani/l">Instagram</a>
+    <div class = "buttons" style= "font-family: Rubik, sans-serif; color: black;">
+      <!-- Dark Mode -->
+    <button style= "font-size: 18px; font-family: Rubik, sans-serif; border-radius: 0%; border-style: solid; border-width: thin; border-color: darkgrey;" onclick="myFunction()">☀️/🌚</button>
+    <!-- Dark Mode (End) -->
+    <a class="btn" href="https://1nish.github.io/components/portfolioSite/indexP.html">Home</a>
+    <a class="btn" href="https://1nish.github.io/components/portfolioSite/portfolio-details3.html">Back</a>
+    <a class="btn" href="https://www.instagram.com/nish.chatlani/" target="_blank">Instagram</a>
     </div>
         <title>Gallery | 1Nish</title>
 
-
+        <!-- Dark Mode -->
+        <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+        <!-- Dark Mode (End) -->
 
 <div class="photos">
  <div class="row">
